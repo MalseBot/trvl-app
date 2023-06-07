@@ -8,7 +8,7 @@ import '../App.css'
 function Home() {
   return (
     <>
-      <Card>
+      <Card className='border-0'>
         <video src={vid} autoPlay loop muted className='w-100' />
         <Card.ImgOverlay className='text-white d-flex flex-column justify-content-center align-items-center text-uppercase'>
           <h1 className='fs-100'> Adventure awaits</h1>
@@ -21,8 +21,7 @@ function Home() {
               Get started
             </Button>{' '}
             <Button variant='light' className='rounded-1 text-uppercase'>
-              watch trailer{' '}
-              <FontAwesomeIcon icon={faCirclePlay} />
+              watch trailer <FontAwesomeIcon icon={faCirclePlay} />
             </Button>
           </div>
         </Card.ImgOverlay>

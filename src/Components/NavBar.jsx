@@ -10,16 +10,16 @@ function NavBar() {
         <Container>
           <Navbar.Brand href='/' className='fw-bolder fs-2'>Trvl</Navbar.Brand>
           <Nav className=' me-3 fw-bold'>
-            <Nav.Link className='text-white me-5' href='./Service.jsx'>
+            <Nav.Link className='text-white me-5' href='/'>
               Service
             </Nav.Link>
-            <Nav.Link className='text-white me-5' href='./Products.jsx'>
+            <Nav.Link className='text-white me-5' href='/'>
               Products
             </Nav.Link>
             <Button
               variant='outline-light'
               className=' me-5 rounded-1 '
-              href='./Sign.jsx'
+              href='/'
             >
               SIGN UP
             </Button>
