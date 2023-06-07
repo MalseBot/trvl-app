@@ -1,0 +1,6 @@
+export { default as Home } from './Home.jsx'
+export { default as Service } from './Service.jsx'
+export { default as Products } from './Products.jsx'
+export { default as Sign } from './Sign.jsx'
+export { default as NavBar } from './NavBar.jsx'
+export { default as Footer } from './Footer.jsx'
